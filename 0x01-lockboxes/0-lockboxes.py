@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def canUnlockAll(boxes):
     """Method that determines if all boxes can be unlocked"""
     n = len(boxes)
