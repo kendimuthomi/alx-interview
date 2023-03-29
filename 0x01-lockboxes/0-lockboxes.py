@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""script to unlock a list of lists"""
 
 def canUnlockAll(boxes):
     """Method that determines if all boxes can be unlocked"""
