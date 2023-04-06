@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Method that checks the fewest number of operations that results in n Hs"""
+
+
 def minOperations(n):
     """minimum operations"""
     if (n == 1):
