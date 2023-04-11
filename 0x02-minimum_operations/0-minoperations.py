@@ -14,10 +14,10 @@ def minOperations(n):
     current = 1
     previous = 0
     operations = 0
-    
+
     while current < n:
         remainder = n - current
-        
+
         if remainder % current == 0:
             # If remainder is divisible by current, increment operations by 2
             previous = current
@@ -27,6 +27,5 @@ def minOperations(n):
             # Otherwise, increment operations by 1
             current += previous
             operations += 1
-    
-    return operations
 
+    return operations
